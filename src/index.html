@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>MovieSearch</title>
+   <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css"> -->
+   <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
+</head>
+<body>
+   <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary justify-content-center">
+         <a class="navbar-brand" href="#">Movie Search</a>
+      </nav>
+   </header>
+
+   <div class="position-absolute" id="keyboard"></div>
+
+   <main class="container mt-2 ">
+      <form class="form-inline my-2 my-lg-2 position-relative justify-content-center">
+         <input class="form-control mr-sm-3" type="text" placeholder="Search" id="searchInput" autofocus>
+         <div class="clearInputBtn position-absolute">
+            <svg class="bi bi-x " width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M11.854 4.146a.5.5 0 010 .708l-7 7a.5.5 0 01-.708-.708l7-7a.5.5 0 01.708 0z"
+               clip-rule="evenodd" />
+            <path fill-rule="evenodd" d="M4.146 4.146a.5.5 0 000 .708l7 7a.5.5 0 00.708-.708l-7-7a.5.5 0 00-.708 0z"
+               clip-rule="evenodd" />
+            </svg>
+         </div>
+         
+         <button class="btn btn-primary my-3 mr-sm-2" type="submit">Search</button>
+         <div class="btn btn-primary my-1 my-sm-1" id="keyboardBtn">Keaboard</div>
+      </form>
+      
+      <section class="container swiper-container">
+         <section class="mt-2 row swiper-wrapper justify-content-center" id="results">
+            <!-- <div class="card col-3 mr-2 mb-2">
+               <div class="card col-3 mr-2 mb-2">
+                  <img src="https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg" class="card-img-top pt-2 " alt="Avengers: Infinity War">
+                  <div class="card-body">
+                     <h5 class="card-title">Avengers: Infinity War</h5>
+                     <p class="card-text">2018</p>
+                     <button data-id="tt4154756" type="button" class="btn btn-danger watch-btn">
+                     Watch Later
+                     </button>
+                  </div>
+            </div>
+            </div> -->
+            
+         </section>
+
+         <!-- <section class="mt-2  col-3 row">
+            <h3>Watch Later</h3>
+            <section class="row" id="watch-later">
+               
+               
+            </section>
+         </section> -->
+      </section>
+
+
+   </main>
+<footer class="footer  bg-primary mt-2 position-absolute">
+   <div class="container ">
+      <div class="row justify-content-between pt-3 pb-3">
+         <p class="text-white ml-5" href="#">RS School 2020q1</p>
+         <a class="text-white mr-5" href="https://github.com/Daqueze21">Daqueze21</a>
+      </div>
+      
+   </div>
+   
+</footer>
+<!-- <script src="https://unpkg.com/swiper/js/swiper.min.js"></script> -->
+</body>
+</html>
